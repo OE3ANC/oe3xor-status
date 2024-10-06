@@ -1,0 +1,7 @@
+services:
+  web:
+    image: oe3xorstatus
+    environment:
+      OE3XOR_STATUS_BROKER : "192.168.73.101:1883"
+    expose:
+      - 8090
